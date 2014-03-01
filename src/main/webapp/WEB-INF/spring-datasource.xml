@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="${database.driver}" />
+		<property name="url" value="${database.url}" />
+		<property name="username" value="${database.user}" />
+		<property name="password" value="${database.password}" />
+		
+		<!-- DBCP polling options -->
+		<property name="initialSize" value="${database.pool.initsize}" />
+		<property name="maxActive" value="${database.pool.maxactive}" />
+	</bean>
+
+</beans>
