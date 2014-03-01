@@ -28,7 +28,7 @@ public class BankAccountsController {
 	private static final Logger log = Logger.getLogger(BankAccountsController.class);
 	
 	/**
-	 * Displays the bank accounts page
+	 * Displays the bank accounts page 
 	 * 
 	 * @param model
 	 * @return
