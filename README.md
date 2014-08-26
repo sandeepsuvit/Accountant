@@ -5,5 +5,5 @@ This is an accounting software based on spring.
 Its in development stage now.
 
 
-<h2>Database used</h2>
+<h4>Database used</h4>
 -
