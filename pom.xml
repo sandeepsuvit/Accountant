@@ -59,7 +59,7 @@
 			<artifactId>commons-pool</artifactId>
 			<version>1.6</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
@@ -86,8 +86,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
-
 	</dependencies>
 
 	<build>
@@ -108,8 +106,6 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>false</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-
-
 				</configuration>
 			</plugin>
 		</plugins>
