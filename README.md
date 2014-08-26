@@ -5,5 +5,6 @@ This is an accounting software based on spring.
 Its in development stage now.
 
 
-<h4>Database used</h4>
-<hr/>
+Database used
+=============
+The database that we currently use here is the MySQL database for development purpose. 
