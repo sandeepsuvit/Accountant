@@ -65,3 +65,28 @@ html,body {
 .dropdown-menu>li>a {
 	padding: 10px 20px;
 }
+
+.content-area h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content-area p{
+	color: #666;
+}
+
+.content-area table{
+	font-size: 1em;
+}
+
+.remove-top-margin{
+	margin-top: 0px !important;
+}
+
+.remove-bottom-margin{
+	margin-bottom: 0px !important;
+}
+
+.table-header-color{
+	background-color: #f5f5f5;
+}
