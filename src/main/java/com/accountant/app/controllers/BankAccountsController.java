@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.accountant.app.utlity.constants.CommonConstants;
+import com.accountant.app.utlity.constants.AccountantConstants;
 
 /**
  * -------------------------------
@@ -39,6 +39,6 @@ public class BankAccountsController {
 		
 		
 		log.info("EXITING METHOD :: getAccounts");
-		return CommonConstants.BANK_ACCOUNTS_PAGE;
+		return AccountantConstants.BANK_ACCOUNTS_PAGE;
 	}
 }
