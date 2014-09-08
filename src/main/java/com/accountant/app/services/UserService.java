@@ -21,8 +21,9 @@ public interface UserService {
 	/**
 	 * Inserting user details to the database
 	 * @param users
+	 * @return 
 	 */
-	public void insertUserDetails(Users users);
+	public Boolean createNewUser(Users users);
 	
 	
 	/**
@@ -36,5 +37,5 @@ public interface UserService {
 	 * Returns details of all the users
 	 * @return
 	 */
-	public List<Users> getAllUserDetails();
+	public List<Users> getListOfAllUser();
 }
